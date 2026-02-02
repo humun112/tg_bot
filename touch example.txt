@@ -1,1 +1,0 @@
-echo "Привет, мир!" > example.txt && git add example.txt && git commit -m "Добавлен example.txt в корень репозитория" && git push origin main
