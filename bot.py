@@ -51,4 +51,7 @@ def get_license(message):
 
 
 print("Бот запущен и работает...")
+bot.remove_webhook()  # удаляет текущий вебхук
+bot.polling(none_stop=True)  # запускает polling
 bot.infinity_polling()
+
